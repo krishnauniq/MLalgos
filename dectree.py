@@ -18,9 +18,9 @@ print("Accuracy:", accuracy_score(y_test, y_pred))
 
 print("will ??",model.predict([[155]]))
 
-from sklearn import tree
-import matplotlib.pyplot as plt
+# from sklearn import tree
+# import matplotlib.pyplot as plt
 
-plt.figure(figsize=(6,4))
-tree.plot_tree(model, feature_names=["Age"], class_names=["No", "Yes"], filled=True)
-plt.show()
+# plt.figure(figsize=(6,4))
+# tree.plot_tree(model, feature_names=["Age"], class_names=["No", "Yes"], filled=True)
+# plt.show()

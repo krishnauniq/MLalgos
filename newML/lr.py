@@ -70,3 +70,11 @@ print(f"Mean Absolute Error (MAE): {mae:.4f}")
 print(f"Mean Squared Error (MSE): {mse:.4f}")
 print(f"Root Mean Squared Error (RMSE): {rmse:.4f}")
 print(f"R² Score: {r2:.4f}")
+
+
+# 📊 Metrics Explained:
+# MAE (Mean Absolute Error): Average of absolute errors. Smaller is better.
+# MSE (Mean Squared Error): Penalizes larger errors more. Smaller is better.
+# RMSE: Square root of MSE. Same unit as the target.
+# R² Score (R-squared): Measures how well the line fits the data.
+

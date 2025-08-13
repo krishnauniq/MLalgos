@@ -10,7 +10,7 @@ data = {
 df = pd.DataFrame(data)
 
 # One-hot encode the 'Location' column
-df_encoded = pd.get_dummies(df, columns=['Location'])
+df_encoded = pd.get_dummies(df, columns=['Location'], drop_first=True)
 df_encoded=df_encoded.astype(int)
 
 print("One-Hot Encoded DataFrame:")
